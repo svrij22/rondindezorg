@@ -14,7 +14,7 @@ services:
         build: nginx
         container_name: nginx_rond
         ports:
-            - 8095:80
+            - 8096:80
         volumes_from:
             - phprond
         volumes:
