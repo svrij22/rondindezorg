@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+    phprond:
+        build: php
+        container_name: phprond
+        volumes:
+            - ../:/var/www/html:consistent
+        environment:
+            XDEBUG_CONFIG: remote_host=host.docker.internal
+            PHP_IDE_CONFIG: "serverNameXXX=phprond-docker"
+
+    nginxrond:
+        build: nginx
+        container_name: nginx_rond
+        ports:
+            - 8095:80
+        volumes_from:
+            - phprond
+        volumes:
+            - ../public:/var/www/html/public
+
