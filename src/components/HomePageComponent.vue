@@ -1,6 +1,13 @@
 <template>
-    <div>
-      Home
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        Home
+      </div>
+      <div class="col-sm-6">
+        Home2
+      </div>
+    </div>
     </div>
 </template>
 
