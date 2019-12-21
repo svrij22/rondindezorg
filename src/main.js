@@ -5,8 +5,8 @@ import VueRouter from 'vue-router'
 import HomePageComponent from "./components/HomePageComponent";
 import ContactPageComponent from "./components/ContactPageComponent";
 
-Vue.use(VueRouter)
-Vue.use(BootstrapVue)
+Vue.use(VueRouter);
+Vue.use(BootstrapVue);
 
 // Each route should map to a component. The "component" can
 // either be an actual component constructor created via
