@@ -4,6 +4,8 @@ import BootstrapVue from 'bootstrap-vue'
 import VueRouter from 'vue-router'
 import HomePageComponent from "./components/HomePageComponent";
 import ContactPageComponent from "./components/ContactPageComponent";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
