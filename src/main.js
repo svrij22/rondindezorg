@@ -3,7 +3,8 @@ import App from './App.vue'
 import BootstrapVue from 'bootstrap-vue'
 import VueRouter from 'vue-router'
 import HomePageComponent from "./components/HomePageComponent";
-import ContactPageComponent from "./components/ContactPageComponent";
+import OverOnsPageComponent from "./components/OverOnsPageComponent";
+import GGZPageComponent from "./components/GGZPageComponent";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -16,7 +17,8 @@ Vue.use(BootstrapVue);
 // We'll talk about nested routes later.
 const routes = [
   { path: '/', component: HomePageComponent },
-  { path: '/contact', component: ContactPageComponent }
+  { path: '/overons', component: OverOnsPageComponent },
+    { path: '/ggz', component: GGZPageComponent }
 ]
 
 // 3. Create the router instance and pass the `routes` option
