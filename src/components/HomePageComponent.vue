@@ -6,17 +6,17 @@
             <div class="row">
                 <div class="ridz-box">
                     <img class="ridz-logo" src="../img/logo2.png" />
-                    <span>WERKEN IN DE ZORG</span>
+                    <span>Werken in de zorg</span>
                 </div>
                 <p>
                     Het vinden van een baan die bij je past is niet eenvoudig. Zeker niet als je jezelf wilt ontwikkelen in een prettige omgeving met fijne collega's en de juiste sfeer. Rond in de zorg helpt je om je wensen in vervulling te laten gaan.
                 </p>
             </div>
-
+            <hr>
             <div class="row">
                 <div class="ridz-box">
                     <img class="ridz-logo" src="../img/logo2.png" />
-                    <span>ACTUEEL</span>
+                    <span>Actueel</span>
                 </div>
                 <p>
                     Rond in de Zorg houdt een onderzoek onder HRM-afdelingen binnen verschillende sectoren en regio's van de Zorg. Doel is een uitwisseling van pragmatische oplossingen en collegiale ondersteuning op het gebied van personele uitdagingen, nu en in de nabije toekomst. In de maanden januari t/m juli wordt telefonisch contact opgenomen met zorgorganisaties voor een persoonlijke afspraak. De resultaten worden gedeeld in de nieuwsbrief.
@@ -26,11 +26,11 @@
             <b-row class="button-row">
                 <b-button size="lg" to="/overons" variant="outline-success" >Meer informatie</b-button>
             </b-row>
-
+            <hr>
             <div class="row">
                 <div class="ridz-box">
                     <img class="ridz-logo" src="../img/logo2.png" />
-                    <span>ZORG ORGANISATIES</span>
+                    <span>Flexibiliteit en planning</span>
                 </div>
                 <div>
                     <b-card title="Contact" style="max-width: 20rem;" class="mb-2 infobox">
@@ -46,21 +46,17 @@
                         <b-button size="lg" variant="outline-success">Meer informatie</b-button>
                     </b-card>
                     <p>
-                        Rond in de Zorg is een integrale dienstverlener met ruime ervaring in het ondersteunen van zorgorganisaties. Rond in de Zorg onderscheidt zich in het brengen van oplossingen in samenhang door kennis van het primaire zorgproces, finance en wet- en regelgeving te combineren.
+                        Rond in de Zorg is een integrale dienstverlener met ruime ervaring in het ondersteunen van zorgorganisaties.
+                        Rond in de Zorg onderscheidt zich in het brengen van oplossingen in samenhang door kennis van het primaire zorgproces,
+                        finance en wet- en regelgeving te combineren.
                         <br><br>
-                        Rond in de Zorg biedt de volgende dienstverlening en producten:<br>
-                        <br>
-                        Ondersteuning van organisaties met actuele HRM vraagstukken:<br>
-                        door Werving & Selectie, ondersteuning bij het werven van vast personeel<br>
-                        bieden van tijdelijke oplossingen door inzet van zorgpersoneel, verpleegkundigen, verzorgenden, planners en zorgmanagers<br>
-                        Ondersteuning door financieel specialisten die de brug kunnen slaan tussen uw primaire zorgproces en finance<br>
-                        Specifieke ondersteuning bij het verbeteren van de Planning & Control cyclus met behulp van een begrotingsmodel<br>
-                        Specifiek advies op het gebied van veranderende regelgeving bijvoorbeeld als gevolg van introductie van de Normatieve Huisvesting Component (NHC). Rond in de Zorg kan voor u een scan maken die de risico's rond veranderende opbrengsten kapitaallasten voor de komende jaren in kaart brengt<br>
-                        Ondersteuning van projecten als gevolg van veranderende regelgeving, implementatie en optimalisatie van zorgregistratie systemen, financiële systemen, optimaliseren declaratie proces enzovoorts<br>
-                        Opleidingen financiën voor de zorgmanager waarbij een brug geslagen wordt tussen het primaire zorgproces en financieel beheer in de zorg<br>
-                        Lean traject, Rond in de Zorg faciliteert zorginstellingen in het opzetten van projecten met behulp van de leanfilosofie<br>
-                        Uitvoeren van administratieve taken op het gebied van bijvoorbeeld de Huishoudelijke Verzorging naar de gemeentes<br>
-                        Projectmanagement met betrekking tot overheveling producten: Begeleiding en Arbeidsmatige Dagbesteding vanuit de AWBZ naar de WMO.
+                        Het plannen van personeel blijft één van de grote uitdagingen in onze sector. Het tekort aan
+                        verzorgenden (IG) en verpleegkundigen (niveau 4) neemt dagelijks toe. Flexibiliteit is een grote wens
+                        maar blijft één van de grootste uitdagingen binnen de sector VVT. Als er iemand ziek wordt of
+                        tijdelijk uitvalt op een afdeling neemt acuut de druk op de collega&#39;s toe. Via Rond in de Zorg is nu in
+                        elke regio een flexibele groep gediplomeerde verzorgenden IG en Verpleegkundigen beschikbaar. Ze
+                        zijn geselecteerd op goede referenties en ruime ervaring. Ze zijn inzetbaar voor langere tijd maar ook
+                        voor losse diensten. Deze medewerkers kunnen dus per direct ingezet worden.
                     </p>
                 </div>
             </div>

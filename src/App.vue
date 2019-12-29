@@ -57,4 +57,9 @@ a {
 .carousel-img{
   max-width: 350px;
 }
+
+.sidebar{
+  border-left: 1px solid rgba(0, 0, 0, 0.26);
+  height: 100%;
+}
 </style>

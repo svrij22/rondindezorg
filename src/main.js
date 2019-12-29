@@ -4,7 +4,9 @@ import BootstrapVue from 'bootstrap-vue'
 import VueRouter from 'vue-router'
 import HomePageComponent from "./components/HomePageComponent";
 import OverOnsPageComponent from "./components/OverOnsPageComponent";
-import GGZPageComponent from "./components/GGZPageComponent";
+import VVTPageComponent from "./components/VVTPageComponent";
+import RCPageComponent from "./components/RCPageComponent"
+import PIPageComponent from "./components/PIPageComponent"
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -18,7 +20,9 @@ Vue.use(BootstrapVue);
 const routes = [
   { path: '/', component: HomePageComponent },
   { path: '/overons', component: OverOnsPageComponent },
-    { path: '/ggz', component: GGZPageComponent }
+    { path: '/vvt', component: VVTPageComponent },
+    { path: '/revalidatiecentra', component: RCPageComponent },
+    { path: '/particulier', component: PIPageComponent }
 ]
 
 // 3. Create the router instance and pass the `routes` option
