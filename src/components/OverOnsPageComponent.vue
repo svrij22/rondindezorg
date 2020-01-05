@@ -22,11 +22,7 @@
                             Naast onze dienstverlening houden we u op de hoogte van de succesverhalen van uw collega's in het land. Wat zijn bijvoorbeeld de ervaringen met het invoeren van talentmanagement, kennismanagement en prestatiemanagement. We creëren een platform voor het delen van kennis en ervaring. Daarnaast bieden we u de helpende hand bij het realiseren van uw ambities en het oplossen van knelpunten.</p>
                     </div>
                 </b-col>
-                <b-col col lg="4">
-                    <div class="sidebar">
-                        <menu-component></menu-component>
-                    </div>
-                </b-col>
+                <menu-component></menu-component>
             </b-row>
         </b-container>
     </div>

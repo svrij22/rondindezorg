@@ -33,12 +33,12 @@
                     <span>Flexibiliteit en planning</span>
                 </div>
                 <div>
-                    <b-card title="Contact" style="max-width: 20rem;" class="mb-2 infobox">
+                    <b-card title="Contact" style="max-width: 20rem;" class="d-sm-none d-md-block mb-2 infobox">
                         <b-card-text>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li><b>Telefoon</b></li>
-                                <li>+31(035)6224002</li>
-                                <li>+31 614962598</li>
+                                <li><a href="tel:0356224002">035 - 622 40 02</a></li>
+                                <li><a href="tel:0614962598">06 - 1496 25 98</a></li>
                                 <li><b>Mail</b></li>
                                 <li>info@rondindezorg.nl</li>
                             </ul>
@@ -58,6 +58,18 @@
                         zijn geselecteerd op goede referenties en ruime ervaring. Ze zijn inzetbaar voor langere tijd maar ook
                         voor losse diensten. Deze medewerkers kunnen dus per direct ingezet worden.
                     </p>
+                    <b-card title="Contact"  class="d-md-none d-sm-block mb-2 infobox-lower">
+                        <b-card-text>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><b>Telefoon</b></li>
+                                <li>+31(035)6224002</li>
+                                <li>+31 614962598</li>
+                                <li><b>Mail</b></li>
+                                <li>info@rondindezorg.nl</li>
+                            </ul>
+                        </b-card-text>
+                        <b-button size="lg" variant="outline-success">Meer informatie</b-button>
+                    </b-card>
                 </div>
             </div>
         </div>
@@ -111,6 +123,14 @@
         margin: 20px;
         min-height: 240px;
         float: right;
+        padding: 1.5rem;
+        color: #2e2e2e;
+    }
+
+    .infobox-lower{
+        max-width: 100%;
+        margin: 30px;
+        min-height: 240px;
         padding: 1.5rem;
         color: #2e2e2e;
     }

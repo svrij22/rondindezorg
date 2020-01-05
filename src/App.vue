@@ -42,7 +42,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 0 10px;
 }
 
@@ -62,4 +62,5 @@ a {
   border-left: 1px solid rgba(0, 0, 0, 0.26);
   height: 100%;
 }
+
 </style>

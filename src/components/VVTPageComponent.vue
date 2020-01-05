@@ -29,7 +29,7 @@
                         <p>
                             Wilt u meer weten over onze dienstverlening voor GGZ organisaties belt u dan met Rond in de Zorg via:
                         </p>
-                        <b-button variant="secondary" size="lg">(020) 752 69 12</b-button>
+                        <b-button href="tel:0207526912" variant="secondary" size="lg">020-752 69 12</b-button>
                     </div>
                     <hr>
                     <div class="row text-content">
@@ -55,7 +55,7 @@
                             en dat levert extra stageplaatsen op, maar ook veel vaste banen. Het mes snijdt aan twee kanten:
                             wij helpen uw medewerker aan passend werk én wij nemen u alle zorg uit handen.
                         </p>
-                        <b-button variant="primary" size="md" href="/src/assets/outplacement.pdf">Meer informatie</b-button>
+                        <b-button variant="outline-success" size="md" href="/src/assets/outplacement.pdf">Download brochure</b-button>
                     </div>
                     <hr>
                     <div class="row text-content">
@@ -69,7 +69,7 @@
                         <p>
                             Uit onderzoek blijkt dat HRM'ers de kosten van inhuur te hoog vinden. Ook blijkt dat de bureaus die interimmers bemiddelen weinig kennis hebben van de zorgsector. En het blijkt vaak lang te duren voordat een interimmer rendeert. Samen met HRM-managers uit de zorg hebben wij een dienst opgericht die deze bezwaren wegneemt en de drempel om interimmers in te huren aanmerkelijk verlaagt.
                         </p>
-                        <b-button variant="primary" size="md" href="/src/assets/flexibel.pdf">Meer informatie</b-button>
+                        <b-button variant="outline-success" size="md" href="/src/assets/flexibel.pdf">Download brochure</b-button>
                     </div>
                     <hr>
                     <div class="row text-content">
@@ -83,14 +83,10 @@
                         <p>
                             Onderzoek onder veertig HRM-managers uit de zorgsector stond aan de basis van het opzetten van ons Werving & Selectie Centrum. Dat voldoet aan alle wensen: lage kosten, resultaatgericht, kennis van de sector, transparantie en daadkracht. Of het nu gaat om de externe werving voor eigen opleidingen of een moeilijk vervulbare vacature.
                         </p>
-                        <b-button variant="primary" size="md" href="/src/assets/Werving.pdf">Meer informatie</b-button>
+                        <b-button variant="outline-success" size="md" href="/src/assets/Werving.pdf">Download brochure</b-button>
                     </div>
                 </b-col>
-                <b-col col lg="4">
-                    <div class="sidebar">
-                        <menu-component></menu-component>
-                    </div>
-                </b-col>
+                <menu-component></menu-component>
             </b-row>
         </b-container>
     </div>

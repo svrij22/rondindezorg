@@ -36,7 +36,7 @@
                             hebben. Jij zorgt tenslotte voor de kwaliteit, de veiligheid en de aandacht die een zorgorganisatie
                             zoekt! Rond in de Zorg staat voor je klaar. Wij werken voor jou... want jíj bent belangrijk.
                         </p>
-                        <b-button variant="secondary" size="lg">(020) 752 69 12</b-button>
+                        <b-button href="tel:0207526912" variant="secondary" size="lg">020-752 69 12</b-button>
                     </div>
                     <hr>
                     <div class="row text-content">
@@ -56,11 +56,11 @@
                         </p>
                             <h3>Jouw voordelen van Rond in de Zorg:</h3>
                             <ul class="list-group">
-                                <li class="list-group-item">Kwalitatief goed bestand van potentiële opdrachtgevers in de zorg.</li>
-                                <li class="list-group-item">Initiële bemiddelingskosten brengen wij niet in rekening.</li>
-                                <li class="list-group-item">Je werkt met een gedreven en ervaren team, met hart voor de zorg.</li>
-                                <li class="list-group-item">Meer dan uitstekende betalingscondities.</li>
-                                <li class="list-group-item">Wij kunnen voor je bemiddelen met betrekking tot het verkrijgen van gunstige tarieven op het
+                                <li >Kwalitatief goed bestand van potentiële opdrachtgevers in de zorg.</li>
+                                <li >Initiële bemiddelingskosten brengen wij niet in rekening.</li>
+                                <li >Je werkt met een gedreven en ervaren team, met hart voor de zorg.</li>
+                                <li >Meer dan uitstekende betalingscondities.</li>
+                                <li >Wij kunnen voor je bemiddelen met betrekking tot het verkrijgen van gunstige tarieven op het
                                     gebied van verzekeringen, employee benefits.</li>
                             </ul>
                     </div>
@@ -74,15 +74,15 @@
                             Ben je geïnteresseerd en wil je je bij ons aanmelden? Voor aanmelding bij Rond in de Zorg hebben
                             wij de volgende gegevens van jou nodig.
                         </p>
-                        <ul class="list-group">
-                            <li class="list-group-item">Actueel CV</li>
-                            <li class="list-group-item">Kopie van een geldig legitimatiebewijs (voor- en achterkant)</li>
-                            <li class="list-group-item">Kopie diploma(s), certificaten en eventuele getuigenschriften of andere bewijslast</li>
-                            <li class="list-group-item">Uittreksel Kamer van Koophandel (KvK)</li>
-                            <li class="list-group-item">Beroepsaansprakelijkheidsverzekering (van het lopende jaar)</li>
-                            <li class="list-group-item">Verklaring omtrent gedrag ((van het lopende jaar))</li>
-                            <li class="list-group-item">Klachtenregeling, onder meer van Klachtportaal | Zorg</li>
-                            <li class="list-group-item">Uittreksel BIG- registratie, indien van toepassing</li>
+                        <ul class="list-unstyled">
+                            <li>Actueel CV</li>
+                            <li>Kopie van een geldig legitimatiebewijs (voor- en achterkant)</li>
+                            <li>Kopie diploma(s), certificaten en eventuele getuigenschriften of andere bewijslast</li>
+                            <li>Uittreksel Kamer van Koophandel (KvK)</li>
+                            <li>Beroepsaansprakelijkheidsverzekering (van het lopende jaar)</li>
+                            <li>Verklaring omtrent gedrag ((van het lopende jaar))</li>
+                            <li>Klachtenregeling, onder meer van Klachtportaal | Zorg</li>
+                            <li>Uittreksel BIG- registratie, indien van toepassing</li>
                         </ul>
                         <p>
                             Schrijf je vandaag nog in voor een passende opdracht.
@@ -90,11 +90,7 @@
                         <b-button variant="primary" size="md">Schrijf je in</b-button>
                     </div>
                 </b-col>
-                <b-col col lg="4">
-                    <div class="sidebar">
-                        <menu-component></menu-component>
-                    </div>
-                </b-col>
+                <menu-component></menu-component>
             </b-row>
         </b-container>
     </div>
@@ -142,7 +138,10 @@
     ul{
         margin-top: 16px;
         margin-bottom: 16px;
+        padding-left: 1.5em;
+        list-style-type: disc !important;
     }
+
     p{
         width: 100%;
     }

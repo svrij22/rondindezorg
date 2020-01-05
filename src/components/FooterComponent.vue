@@ -2,7 +2,7 @@
     <div class="footer">
         <b-container>
             <b-row>
-
+                hoi
             </b-row>
         </b-container>
     </div>

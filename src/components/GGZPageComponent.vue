@@ -28,7 +28,7 @@
                         <p>
                             Wilt u meer weten over onze dienstverlening voor GGZ organisaties belt u dan met Rond in de Zorg via:
                         </p>
-                        <b-button variant="secondary" size="lg">(020) 752 69 12</b-button>
+                        <b-button href="tel:0207526912" variant="secondary" size="lg">020-752 69 12</b-button>
                     </div>
                     <hr>
                     <div class="row text-content">
