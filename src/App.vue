@@ -1,8 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app" style="">
     <header-component />
     <router-view></router-view>
     <footer-component></footer-component>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   </div>
 </template>
 
@@ -25,12 +26,24 @@ export default {
 <style lang="scss">
 #app {
   font-family: 'Poppins', sans-serif;
-  src: url('/assets/Poppins-Regular.ttf');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  & > div {
+    flex: 0 0 auto;
+  }
+
+  & > div:nth-child(2) {
+    flex: 1 0 auto;
+  }
 }
+
+
 
 h1, h2 {
   font-weight: normal;
@@ -61,6 +74,10 @@ a {
 .sidebar{
   border-left: 1px solid rgba(0, 0, 0, 0.26);
   height: 100%;
+}
+
+.text-content{
+  font-size: 17px;
 }
 
 </style>

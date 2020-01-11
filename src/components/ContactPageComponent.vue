@@ -3,9 +3,9 @@
         <b-container class="contents">
             <div>
                 <b-jumbotron>
-                    <template v-slot:header>Voor en door de zorg.</template>
+                    <template v-slot:header>Contact</template>
                     <template v-slot:lead>
-                        Rond in de Zorg is een dienstverlener die zorgorganisaties helpt met actuele HRM-vraagstukken op het gebied van interim personeel, werving en selectie en outplacement.
+                        Neem contact met ons op.
                     </template>
                 </b-jumbotron>
             </div>
@@ -14,12 +14,22 @@
                     <div class="row text-content">
                         <div class="ridz-box">
                             <img class="ridz-logo" src="../img/logo2.png" />
-                            <span>Voor en door de zorg</span>
+                            <span>Neem contact op</span>
                         </div>
+                        <div>
+                            <p>
+                                Wilt u meer weten over onze dienstverlening voor deze organisaties belt u dan met Rond in de Zorg via:
+                            </p>
+                            <b-button class="m-3" href="tel:0356224002" variant="secondary" size="lg">035 - 622 40 02</b-button>
+                            <b-button class="m-3" href="tel:0614962598" variant="secondary" size="lg">06 - 1496 25 98</b-button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row text-content">
                         <p>
-                            Rond in de Zorg ondersteunt zorgorganisaties bij het oplossen van Ad Hoc problemen en ook detacheringsopdrachten. Wij zorgen ervoor dat het vaste personeel ontlast wordt in hun werkzaamheden en met veel plezier blijft werken.<br><br>
-                            Naast onze dienstverlening houden wij u op de hoogte van de succesverhalen van uw collega's in het land. Wat zijn bijvoorbeeld de ervaringen met het invoeren van talent management, kennismanagement en prestatiemanagement? Wij creëren een platform voor het delen van kennis en ervaring. Daarnaast bieden wij u de helpende hand bij het realiseren van uw ambities en het oplossen van knelpunten.
+                            Of neem contact op via:
                         </p>
+                        <b-button class="m-3" href="mailto:info@rondindezorg.nl" variant="secondary" size="lg">info@rondindezorg.nl</b-button>
                     </div>
                 </b-col>
                 <menu-component></menu-component>
@@ -30,10 +40,9 @@
 
 <script>
     import MenuComponent from "./MenuComponent";
-
     export default {
         components: {MenuComponent},
-        name: "OverOnsPageComponent"
+        name: "GGZPageComponent"
     }
 </script>
 
@@ -47,6 +56,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 15px;
+        width: 100%;
     }
 
     .ridz-box span{
@@ -67,4 +77,14 @@
         text-align: left;
     }
 
+    ul{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding-left: 1.5em;
+        list-style-type: disc !important;
+    }
+
+    p{
+        width: 100%;
+    }
 </style>

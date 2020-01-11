@@ -15,9 +15,6 @@
         >
             <!-- Text slides with image -->
             <b-carousel-slide img-src="https://i.picsum.photos/id/52/1024/480.jpg?blur=2" >
-                <div class="carousel-img-div">
-                    <img class="carousel-img" src="../img/dokter1.png"/>
-                </div>
                 <div class="carousel-box">
                     <h1 class="slide-text1">
                         Wil je eigenlijk niet <span class="coloured-text">stoppen</span>, maar <span class="coloured-text">werken</span> wanneer jij wil?
@@ -28,7 +25,7 @@
             <!-- Slides with custom text -->
             <b-carousel-slide img-src="https://i.picsum.photos/id/1031/1024/480.jpg">
                 <div class="carousel-img-div">
-                    <img class="carousel-img" src="../img/dokter2.png"/>
+                    <img class="carousel-img" src="../img/dokter4.png"/>
                 </div>
                 <div class="carousel-box">
                     <h1 class="slide-text1">
@@ -40,7 +37,7 @@
             <!-- Slides with image only -->
             <b-carousel-slide img-src="https://i.picsum.photos/id/114/1024/480.jpg">
                 <div class="carousel-img-div">
-                    <img class="carousel-img" src="../img/dokter3.png"/>
+                    <img class="carousel-img" src="../img/dokter6.png"/>
                 </div>
                 <div class="carousel-box">
                     <h1 class="slide-text1">

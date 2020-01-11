@@ -5,8 +5,10 @@ import VueRouter from 'vue-router'
 import HomePageComponent from "./components/HomePageComponent";
 import OverOnsPageComponent from "./components/OverOnsPageComponent";
 import VVTPageComponent from "./components/VVTPageComponent";
-import RCPageComponent from "./components/RCPageComponent"
-import PIPageComponent from "./components/PIPageComponent"
+import RCPageComponent from "./components/RCPageComponent";
+import ZZPPageComponent from "./components/ZZPPageComponent";
+import ContactPageComponent from "./components/ContactPageComponent";
+import FormPageComponent from "./components/FormPageComponent";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -22,7 +24,9 @@ const routes = [
   { path: '/overons', component: OverOnsPageComponent },
     { path: '/vvt', component: VVTPageComponent },
     { path: '/revalidatiecentra', component: RCPageComponent },
-    { path: '/particulier', component: PIPageComponent }
+    { path: '/contact', component: ContactPageComponent },
+    { path: '/zzp', component: ZZPPageComponent },
+    { path: '/form', component: FormPageComponent }
 ]
 
 // 3. Create the router instance and pass the `routes` option

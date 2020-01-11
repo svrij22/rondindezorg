@@ -5,6 +5,7 @@
                 <b-navbar-brand to="/">
                     <img src="../img/logorechts.png"/>
                 </b-navbar-brand>
+                <div class="smalltext">Bemiddeling, Werving en Selectie</div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
@@ -12,9 +13,9 @@
                                 <b-dropdown-item to="/">Homepagina</b-dropdown-item>
                                 <div class="dropdown-divider"></div>
                                 <b-dropdown-item to="/overons">Over Ons</b-dropdown-item>
-                                <b-dropdown-item to="/vvt">VVT</b-dropdown-item>
-                                <b-dropdown-item to="/revalidatiecentra">Revalidatiecentra</b-dropdown-item>
-                                <b-dropdown-item to="/particulier">Particuliere instellingen</b-dropdown-item>
+                                <b-dropdown-item to="/vvt">Zorgorganisaties</b-dropdown-item>
+                                <b-dropdown-item to="/zzp">Werken als ZZP'er</b-dropdown-item>
+                                <b-dropdown-item to="/contact">Contact</b-dropdown-item>
                             </b-nav-item-dropdown>
                         </li>
                     </ul>
@@ -39,5 +40,11 @@
 
     li{
         width: -webkit-fill-available;
+    }
+    .smalltext{
+        position: absolute;
+        bottom: 10px;
+        font-size: small;
+        padding-left: 72px;
     }
 </style>

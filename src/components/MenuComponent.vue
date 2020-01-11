@@ -1,30 +1,30 @@
 <template>
-    <b-col lg="4" class="d-sm-none d-md-none d-lg-block">
+    <b-col lg="4" class="d-none d-sm-none d-md-none d-lg-block">
         <div class="sidebar">
             <div class="p-3">
-            <b-list-group>
+            <b-list-group class="list-group-flush">
                 <b-list-group-item to="/overons">
                     <div class="ridz-box">
                         <img class="ridz-logo" src="../img/logo2.png" />
-                        <span>Over Ons</span>
+                        <span><b>Over Ons</b></span>
                     </div>
                 </b-list-group-item>
                 <b-list-group-item  to="/vvt">
                     <div class="ridz-box">
                         <img class="ridz-logo" src="../img/logo2.png" />
-                        <span>VVT</span>
+                        <span><b>Zorgorganisaties</b></span>
                     </div>
                 </b-list-group-item>
-                <b-list-group-item  to="/revalidatiecentra">
+                <b-list-group-item to="/zzp">
                     <div class="ridz-box">
                         <img class="ridz-logo" src="../img/logo2.png" />
-                        <span>Revalidatiecentra</span>
+                        <span><b>Werken als ZZP'er</b></span>
                     </div>
                 </b-list-group-item>
-                <b-list-group-item to="/particulier">
+                <b-list-group-item to="/contact">
                     <div class="ridz-box">
                         <img class="ridz-logo" src="../img/logo2.png" />
-                        <span>Particuliere instellingen</span>
+                        <span><b>Contact</b></span>
                     </div>
                 </b-list-group-item>
             </b-list-group>
@@ -50,8 +50,8 @@
     }
 
     .ridz-logo{
-        width: 34px;
-        height: 34px;
+        width: 28px;
+        height: 28px;
         margin-right: 6px;
     }
 
