@@ -11,10 +11,10 @@
                 img-height="480"
                 style="text-shadow: 1px 1px 2px #333;"
                 @sliding-start="onSlideStart"
-                @sliding-end="onSlideEnd"
-        >
+                @sliding-end="onSlideEnd">
+
             <!-- Text slides with image -->
-            <b-carousel-slide img-src="https://i.picsum.photos/id/52/1024/480.jpg?blur=2" >
+            <b-carousel-slide :img-src="require('../img/back1.jpg')">
                 <div class="carousel-box">
                     <h1 class="slide-text1">
                         Wil je eigenlijk niet <span class="coloured-text">stoppen</span>, maar <span class="coloured-text">werken</span> wanneer jij wil?
@@ -23,7 +23,7 @@
             </b-carousel-slide>
 
             <!-- Slides with custom text -->
-            <b-carousel-slide img-src="https://i.picsum.photos/id/1031/1024/480.jpg">
+            <b-carousel-slide :img-src="require('../img/back2.jpg')">
                 <div class="carousel-img-div">
                     <img class="carousel-img" src="../img/dokter4.png"/>
                 </div>
@@ -35,7 +35,7 @@
             </b-carousel-slide>
 
             <!-- Slides with image only -->
-            <b-carousel-slide img-src="https://i.picsum.photos/id/114/1024/480.jpg">
+            <b-carousel-slide :img-src="require('../img/back3.jpg')">
                 <div class="carousel-img-div">
                     <img class="carousel-img" src="../img/dokter6.png"/>
                 </div>
@@ -48,7 +48,7 @@
 
             <!-- Slides with img slot -->
             <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-            <b-carousel-slide img-src="https://i.picsum.photos/id/130/1024/480.jpg">
+            <b-carousel-slide :img-src="require('../img/back4.jpg')">
                 <div class="carousel-img-div">
                     <img class="carousel-img" src="../img/patient.png"/>
                 </div>
@@ -60,7 +60,7 @@
             </b-carousel-slide>
 
             <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-            <b-carousel-slide img-blank style="background: rgb(232, 232, 232)">
+            <b-carousel-slide img-blank style="    background: linear-gradient(#c5c5c5, white) rgb(171, 171, 171)">
                 <img src="../img/logorechts_vectorized.png" class="logo-img">
                     <h1 class="logo-text">
                         Bemiddeling, Werving & Selectie
@@ -93,7 +93,8 @@
 <style scoped>
     .slide-text1{
         font-size: calc(4px + 24 * (100vw / 580));
-        text-shadow: 2px 3px 10px black;
+
+        text-shadow: 6px 3px 10px black;
         margin: 20px;
     }
 
